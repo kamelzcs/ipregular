@@ -166,7 +166,8 @@ class RegexWordProcessor implements WordProcessor {
 	public void preChildren(final Word word) {
 		// sb.setLength(sb.length() - 1); // chop off "|"
 
-		sb.append(addParenthesis(word) ? "(?:" : "");
+        //sb.append(addParenthesis(word) ? "(?:" : "");
+        sb.append(addParenthesis(word) ? "(" : "");
 	}
 
 	@Override

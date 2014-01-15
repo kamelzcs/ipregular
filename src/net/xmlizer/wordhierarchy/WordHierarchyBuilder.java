@@ -109,6 +109,9 @@ public class WordHierarchyBuilder {
 	}
 
 	public static Word createWordTree(final String[] vocabulary) {
+        for(int i=0;i<vocabulary.length;++i){
+            vocabulary[i] = vocabulary[i].replace(".","/.");
+        }
 		return createWordTree(vocabulary, null);
 	}
 

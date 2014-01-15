@@ -1,0 +1,104 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+RegexWordProcessor	src/net/xmlizer/wordhierarchy/WordProcessor.java	/^class RegexWordProcessor implements WordProcessor {$/;"	c
+StringifyWordProcessor	src/net/xmlizer/wordhierarchy/WordProcessor.java	/^	public StringifyWordProcessor() {$/;"	m	class:StringifyWordProcessor
+StringifyWordProcessor	src/net/xmlizer/wordhierarchy/WordProcessor.java	/^	public StringifyWordProcessor(boolean theWithId) {$/;"	m	class:StringifyWordProcessor
+StringifyWordProcessor	src/net/xmlizer/wordhierarchy/WordProcessor.java	/^class StringifyWordProcessor implements WordProcessor {$/;"	c
+TestWordProcessor	src/net/xmlizer/wordhierarchy/WordProcessor.java	/^	public TestWordProcessor(final Collection<String> vocabulary) {$/;"	m	class:TestWordProcessor
+TestWordProcessor	src/net/xmlizer/wordhierarchy/WordProcessor.java	/^class TestWordProcessor implements WordProcessor {$/;"	c
+Word	src/net/xmlizer/wordhierarchy/Word.java	/^	Word(final String theWord) {$/;"	m	class:Word
+Word	src/net/xmlizer/wordhierarchy/Word.java	/^	Word(final String theWord, final boolean theComplete) {$/;"	m	class:Word
+Word	src/net/xmlizer/wordhierarchy/Word.java	/^	public Word() {$/;"	m	class:Word
+Word	src/net/xmlizer/wordhierarchy/Word.java	/^public class Word implements Comparable<Word> {$/;"	c
+WordHierarchyBuilder	src/net/xmlizer/wordhierarchy/WordHierarchyBuilder.java	/^public class WordHierarchyBuilder {$/;"	c
+WordHierarchyTest	test_src/net/xmlizer/wordhierarchy/WordHierarchyTest.java	/^public class WordHierarchyTest {$/;"	c
+WordProcessor	src/net/xmlizer/wordhierarchy/WordProcessor.java	/^interface WordProcessor {$/;"	i
+addAll	src/net/xmlizer/wordhierarchy/Word.java	/^	void addAll(Collection<Word> words) {$/;"	m	class:Word
+addChild	src/net/xmlizer/wordhierarchy/Word.java	/^	Word addChild(final String theWord) {$/;"	m	class:Word
+addChild	src/net/xmlizer/wordhierarchy/Word.java	/^	Word addChild(final String theWord, final boolean theComplete) {$/;"	m	class:Word
+addChild	src/net/xmlizer/wordhierarchy/Word.java	/^	Word addChild(final Word theWord) {$/;"	m	class:Word
+addParenthesis	src/net/xmlizer/wordhierarchy/WordProcessor.java	/^	private static boolean addParenthesis(final Word word) {$/;"	m	class:RegexWordProcessor	file:
+addWordTree	src/net/xmlizer/wordhierarchy/WordHierarchyBuilder.java	/^	private static void addWordTree(final Word root, final String theNewWord,$/;"	m	class:WordHierarchyBuilder	file:
+asSortedList	src/net/xmlizer/wordhierarchy/Word.java	/^	public static <T extends Comparable<? super T>> List<T> asSortedList($/;"	m	class:Word
+bkup	src/net/xmlizer/wordhierarchy/WordProcessor.java	/^	private final Collection<String> bkup;$/;"	f	class:TestWordProcessor	file:
+children	src/net/xmlizer/wordhierarchy/Word.java	/^	private final Set<Word> children = new HashSet<Word>();$/;"	f	class:Word	file:
+compareTo	src/net/xmlizer/wordhierarchy/Word.java	/^	public int compareTo(final Word o) {$/;"	m	class:Word
+complete	src/net/xmlizer/wordhierarchy/Word.java	/^	private boolean complete;$/;"	f	class:Word	file:
+createWordTree	src/net/xmlizer/wordhierarchy/WordHierarchyBuilder.java	/^	public static Word createWordTree(final Collection<String> vocabulary) {$/;"	m	class:WordHierarchyBuilder
+createWordTree	src/net/xmlizer/wordhierarchy/WordHierarchyBuilder.java	/^	public static Word createWordTree(final Collection<String> vocabulary,$/;"	m	class:WordHierarchyBuilder
+createWordTree	src/net/xmlizer/wordhierarchy/WordHierarchyBuilder.java	/^	public static Word createWordTree(final Iterator<String> vocabularyIter) {$/;"	m	class:WordHierarchyBuilder
+createWordTree	src/net/xmlizer/wordhierarchy/WordHierarchyBuilder.java	/^	public static Word createWordTree(final String[] vocabulary) {$/;"	m	class:WordHierarchyBuilder
+createWordTree	src/net/xmlizer/wordhierarchy/WordHierarchyBuilder.java	/^	public static Word createWordTree(final String[] vocabulary,$/;"	m	class:WordHierarchyBuilder
+du	test_src/net/xmlizer/wordhierarchy/WordHierarchyTest.java	/^	private static final String[] du = new String[] { "Dein", "Deine",$/;"	f	class:WordHierarchyTest	file:
+findCommonSubstring	src/net/xmlizer/wordhierarchy/WordHierarchyBuilder.java	/^	private static int findCommonSubstring(final Word theWord,$/;"	m	class:WordHierarchyBuilder	file:
+getChildren	src/net/xmlizer/wordhierarchy/Word.java	/^	public Set<Word> getChildren() {$/;"	m	class:Word
+getId	src/net/xmlizer/wordhierarchy/Word.java	/^	public int getId() {$/;"	m	class:Word
+getParent	src/net/xmlizer/wordhierarchy/Word.java	/^	public Word getParent() {$/;"	m	class:Word
+getResult	src/net/xmlizer/wordhierarchy/WordProcessor.java	/^	public String getResult() {$/;"	m	class:RegexWordProcessor
+getResult	src/net/xmlizer/wordhierarchy/WordProcessor.java	/^	public String getResult() {$/;"	m	class:StringifyWordProcessor
+getWord	src/net/xmlizer/wordhierarchy/Word.java	/^	public String getWord() {$/;"	m	class:Word
+id	src/net/xmlizer/wordhierarchy/Word.java	/^	private final int id;$/;"	f	class:Word	file:
+ihr	test_src/net/xmlizer/wordhierarchy/WordHierarchyTest.java	/^	private static final String[] ihr = new String[] { "Ihnen", "Ihr", "Ihre",$/;"	f	class:WordHierarchyTest	file:
+indent	src/net/xmlizer/wordhierarchy/WordProcessor.java	/^	private static int indent;$/;"	f	class:StringifyWordProcessor	file:
+instanceCount	src/net/xmlizer/wordhierarchy/Word.java	/^	private static int instanceCount;$/;"	f	class:Word	file:
+isComplete	src/net/xmlizer/wordhierarchy/Word.java	/^	public boolean isComplete() {$/;"	m	class:Word
+main	src/net/xmlizer/wordhierarchy/WordHierarchyBuilder.java	/^	public static void main(final String[] args) {$/;"	m	class:WordHierarchyBuilder
+makeIndent	src/net/xmlizer/wordhierarchy/WordProcessor.java	/^	private static String makeIndent() {$/;"	m	class:StringifyWordProcessor	file:
+myToString	src/net/xmlizer/wordhierarchy/Word.java	/^	public String myToString() {$/;"	m	class:Word
+myToString	src/net/xmlizer/wordhierarchy/Word.java	/^	public String myToString(boolean withId) {$/;"	m	class:Word
+myToStringSorted	src/net/xmlizer/wordhierarchy/Word.java	/^	public String myToStringSorted() {$/;"	m	class:Word
+myToStringSorted	src/net/xmlizer/wordhierarchy/Word.java	/^	public String myToStringSorted(boolean withId) {$/;"	m	class:Word
+net.xmlizer.wordhierarchy	src/net/xmlizer/wordhierarchy/Word.java	/^package net.xmlizer.wordhierarchy;$/;"	p
+net.xmlizer.wordhierarchy	src/net/xmlizer/wordhierarchy/WordHierarchyBuilder.java	/^package net.xmlizer.wordhierarchy;$/;"	p
+net.xmlizer.wordhierarchy	src/net/xmlizer/wordhierarchy/WordProcessor.java	/^package net.xmlizer.wordhierarchy;$/;"	p
+net.xmlizer.wordhierarchy	test_src/net/xmlizer/wordhierarchy/WordHierarchyTest.java	/^package net.xmlizer.wordhierarchy;$/;"	p
+parent	src/net/xmlizer/wordhierarchy/Word.java	/^	private Word parent;$/;"	f	class:Word	file:
+postChildren	src/net/xmlizer/wordhierarchy/WordProcessor.java	/^	public void postChildren(final Word word) {$/;"	m	class:RegexWordProcessor
+postChildren	src/net/xmlizer/wordhierarchy/WordProcessor.java	/^	public void postChildren(final Word word) {$/;"	m	class:StringifyWordProcessor
+postChildren	src/net/xmlizer/wordhierarchy/WordProcessor.java	/^	public void postChildren(final Word word) {$/;"	m	class:TestWordProcessor
+postChildren	src/net/xmlizer/wordhierarchy/WordProcessor.java	/^	void postChildren(final Word word);$/;"	m	interface:WordProcessor
+preChildren	src/net/xmlizer/wordhierarchy/WordProcessor.java	/^	public void preChildren(final Word word) {$/;"	m	class:RegexWordProcessor
+preChildren	src/net/xmlizer/wordhierarchy/WordProcessor.java	/^	public void preChildren(final Word word) {$/;"	m	class:StringifyWordProcessor
+preChildren	src/net/xmlizer/wordhierarchy/WordProcessor.java	/^	public void preChildren(final Word word) {$/;"	m	class:TestWordProcessor
+preChildren	src/net/xmlizer/wordhierarchy/WordProcessor.java	/^	void preChildren(final Word word);$/;"	m	interface:WordProcessor
+processAll	src/net/xmlizer/wordhierarchy/Word.java	/^	public void processAll(final WordProcessor wp) {$/;"	m	class:Word
+processAllSorted	src/net/xmlizer/wordhierarchy/Word.java	/^	public void processAllSorted(final WordProcessor wp) {$/;"	m	class:Word
+processWord	src/net/xmlizer/wordhierarchy/WordProcessor.java	/^	boolean processWord(final Word word);$/;"	m	interface:WordProcessor
+processWord	src/net/xmlizer/wordhierarchy/WordProcessor.java	/^	public boolean processWord(final Word word) {$/;"	m	class:RegexWordProcessor
+processWord	src/net/xmlizer/wordhierarchy/WordProcessor.java	/^	public boolean processWord(final Word word) {$/;"	m	class:StringifyWordProcessor
+processWord	src/net/xmlizer/wordhierarchy/WordProcessor.java	/^	public boolean processWord(final Word word) {$/;"	m	class:TestWordProcessor
+ref	src/net/xmlizer/wordhierarchy/WordProcessor.java	/^	private final Collection<String> ref = new HashSet<String>();$/;"	f	class:TestWordProcessor	file:
+removeChild	src/net/xmlizer/wordhierarchy/Word.java	/^	void removeChild(final Word theWord) {$/;"	m	class:Word
+resultOk	src/net/xmlizer/wordhierarchy/WordProcessor.java	/^	public boolean resultOk() {$/;"	m	class:TestWordProcessor
+sb	src/net/xmlizer/wordhierarchy/WordProcessor.java	/^	final StringBuilder sb = new StringBuilder();$/;"	f	class:StringifyWordProcessor
+sb	src/net/xmlizer/wordhierarchy/WordProcessor.java	/^	private final StringBuilder sb = new StringBuilder();$/;"	f	class:RegexWordProcessor	file:
+setComplete	src/net/xmlizer/wordhierarchy/Word.java	/^	public void setComplete(boolean theComplete) {$/;"	m	class:Word
+setParent	src/net/xmlizer/wordhierarchy/Word.java	/^	public void setParent(Word theParent) {$/;"	m	class:Word
+shortEuch	test_src/net/xmlizer/wordhierarchy/WordHierarchyTest.java	/^	private static final String[] shortEuch = "Euch Euer Eueres Euerem Eure Eurer"$/;"	f	class:WordHierarchyTest	file:
+testCreatorDu	test_src/net/xmlizer/wordhierarchy/WordHierarchyTest.java	/^	public void testCreatorDu() {$/;"	m	class:WordHierarchyTest
+testCreatorIhr	test_src/net/xmlizer/wordhierarchy/WordHierarchyTest.java	/^	public void testCreatorIhr() {$/;"	m	class:WordHierarchyTest
+testEUL	test_src/net/xmlizer/wordhierarchy/WordHierarchyTest.java	/^	public void testEUL() {$/;"	m	class:WordHierarchyTest
+testEULe	test_src/net/xmlizer/wordhierarchy/WordHierarchyTest.java	/^	public void testEULe() {$/;"	m	class:WordHierarchyTest
+testEULeL	test_src/net/xmlizer/wordhierarchy/WordHierarchyTest.java	/^	public void testEULeL() {$/;"	m	class:WordHierarchyTest
+testEuer	test_src/net/xmlizer/wordhierarchy/WordHierarchyTest.java	/^	public void testEuer() {$/;"	m	class:WordHierarchyTest
+testEuerems	test_src/net/xmlizer/wordhierarchy/WordHierarchyTest.java	/^	public void testEuerems() {$/;"	m	class:WordHierarchyTest
+testEueres	test_src/net/xmlizer/wordhierarchy/WordHierarchyTest.java	/^	public void testEueres() {$/;"	m	class:WordHierarchyTest
+testIt	src/net/xmlizer/wordhierarchy/Word.java	/^	public boolean testIt(final Collection<String> vocabulary) {$/;"	m	class:Word
+testIt	test_src/net/xmlizer/wordhierarchy/WordHierarchyTest.java	/^	public void testIt() throws IOException {$/;"	m	class:WordHierarchyTest
+testMidword	test_src/net/xmlizer/wordhierarchy/WordHierarchyTest.java	/^	public void testMidword() {$/;"	m	class:WordHierarchyTest
+testPattern	test_src/net/xmlizer/wordhierarchy/WordHierarchyTest.java	/^	public void testPattern() {$/;"	m	class:WordHierarchyTest
+testSameStringTwice	test_src/net/xmlizer/wordhierarchy/WordHierarchyTest.java	/^	public void testSameStringTwice() {$/;"	m	class:WordHierarchyTest
+testTestIt	test_src/net/xmlizer/wordhierarchy/WordHierarchyTest.java	/^	public void testTestIt() {$/;"	m	class:WordHierarchyTest
+testaaab	test_src/net/xmlizer/wordhierarchy/WordHierarchyTest.java	/^	public void testaaab() {$/;"	m	class:WordHierarchyTest
+testaabaac	test_src/net/xmlizer/wordhierarchy/WordHierarchyTest.java	/^	public void testaabaac() {$/;"	m	class:WordHierarchyTest
+testabcabd	test_src/net/xmlizer/wordhierarchy/WordHierarchyTest.java	/^	public void testabcabd() {$/;"	m	class:WordHierarchyTest
+testabcade	test_src/net/xmlizer/wordhierarchy/WordHierarchyTest.java	/^	public void testabcade() {$/;"	m	class:WordHierarchyTest
+toRegex	src/net/xmlizer/wordhierarchy/Word.java	/^	public String toRegex() {$/;"	m	class:Word
+toRegexSorted	src/net/xmlizer/wordhierarchy/Word.java	/^	public String toRegexSorted() {$/;"	m	class:Word
+toString	src/net/xmlizer/wordhierarchy/Word.java	/^	public String toString() {$/;"	m	class:Word
+withId	src/net/xmlizer/wordhierarchy/WordProcessor.java	/^	private boolean withId;$/;"	f	class:StringifyWordProcessor	file:
+word	src/net/xmlizer/wordhierarchy/Word.java	/^	private final String word;$/;"	f	class:Word	file:
